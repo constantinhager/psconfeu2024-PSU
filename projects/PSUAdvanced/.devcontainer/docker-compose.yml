@@ -1,0 +1,32 @@
+version: "3.7"
+services:
+  PSU:
+    container_name: PSU
+    image: ironmansoftware/universal:latest
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    links:
+      - SQL
+    environment:
+      - TZ=Europe/Berlin
+      - Plugins__0=SQL
+      - Data__ConnectionString=Data Source=SQL;Initial Catalog=PSU;User Id=sa;Password=Password123;TrustServerCertificate=True;Trusted_Connection=True;integrated security=false;
+      - NodeName=PSUAdvanced
+    depends_on:
+      - SQL
+    volumes:
+      - C:\Users\psconfeu\source\repos\psconfeu2024-PSU\projects\PSUAdvanced\data:/root
+
+  SQL:
+    container_name: SQL
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    restart: unless-stopped
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Password123
+      - MSSQL_PID=Developer
+    volumes:
+      - C:\Users\psconfeu\source\repos\psconfeu2024-PSU\projects\PSUAdvanced\datafiles:/var/opt/mssql/data

@@ -10,7 +10,7 @@
                 "command": "Remove-Item",
                 "args": [
                     "-Path",
-                    "C:\\Users\\psconfeu\\source\\repos\\psconfeu2024-PSU\\projects\\PSUSimple\\data\\.vscode-server-insiders",
+                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUSimple\\data\\.vscode-server-insiders",
                     "-Force",
                     "-Recurse",
                     "-ErrorAction",

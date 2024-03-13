@@ -17,7 +17,7 @@
 					{
 						"name": "Container",
 						"url": "http://localhost:5000",
-						"appToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiZDdlMjYyNzMtNzQ2Ny00MDU3LWIzMzItMDgwODQ3NmNjMTQzIiwic3ViIjoiUG93ZXJTaGVsbFVuaXZlcnNhbCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluaXN0cmF0b3IiLCJuYmYiOjE3MDk2ODExNDUsImV4cCI6MTcxMjI2OTUwMCwiaXNzIjoiSXJvbm1hblNvZnR3YXJlIiwiYXVkIjoiUG93ZXJTaGVsbFVuaXZlcnNhbCJ9.d1SmNtneVvLZE2fJ6OrNJLvBCu7xfKMKkSNYXb-j2fg"
+						"appToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiNzZkOWM0YzItNzE4Mi00MDQ1LWE1N2EtNzk0NzgzNjZiZDA1Iiwic3ViIjoiUG93ZXJTaGVsbFVuaXZlcnNhbCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluaXN0cmF0b3IiLCJuYmYiOjE3MTAzNzE4NzQsImV4cCI6MTc0MTkwNzgyMCwiaXNzIjoiSXJvbm1hblNvZnR3YXJlIiwiYXVkIjoiUG93ZXJTaGVsbFVuaXZlcnNhbCJ9.WmXtqMtNkkckn8sgxhn8Mdb-MTldTtzGgFSgL8o7w4s"
 					}
 				]
 			},
@@ -37,7 +37,7 @@
 		"NodeName": "PSUSimple"
 	},
 	"mounts": [
-		"source=C:\\Users\\psconfeu\\source\\repos\\psconfeu2024-PSU\\projects\\PSUSimple\\data,target=/root,type=bind,consistency=cached"
+		"source=D:\\repos\\psconfeu2024-PSU\\projects\\PSUSimple\\data,target=/root,type=bind,consistency=cached"
 	]
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"

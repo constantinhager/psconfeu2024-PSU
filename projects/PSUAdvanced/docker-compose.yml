@@ -10,17 +10,16 @@ services:
       - Plugins__0=SQL
       - Data__ConnectionString=Data Source=db;Initial Catalog=PSU;User Id=sa;Password=Password123;TrustServerCertificate=True;Trusted_Connection=True;integrated security=false;
       - NodeName=PSUAdvanced
-      - RunMigrations=false
+      #- RunMigrations=false
     volumes:
-      - C:\Users\psconfeu\source\repos\psconfeu2024-PSU\projects\PSUAdvanced\data:/root
+      - D:\repos\psconfeu2024-PSU\projects\PSUAdvanced\data:/root
 
   db:
     image: mcr.microsoft.com/mssql/server:2022-latest
     restart: unless-stopped
-    user: mssql
     environment:
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=Password123
       - MSSQL_PID=Developer
     volumes:
-      - C:\Users\psconfeu\source\repos\psconfeu2024-PSU\projects\PSUAdvanced\datafiles:/var/opt/mssql/data
+      - D:\repos\psconfeu2024-PSU\projects\PSUAdvanced\datafiles:/var/opt/mssql/data

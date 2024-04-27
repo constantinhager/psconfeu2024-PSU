@@ -7,19 +7,15 @@
             "label": "Remove vscode-server-insiders",
             "type": "shell",
             "windows": {
-                "command": "Remove-Item",
                 "args": [
-                    "-Path",
-                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUSimple\\data\\.vscode-server-insiders",
-                    "-Force",
-                    "-Recurse",
-                    "-ErrorAction",
-                    "SilentlyContinue"
+                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUSimple\\data\\delvscodeserver.ps1"
                 ],
+                "command": "pwsh.exe"
             },
             "problemMatcher": [
                 "$pester"
             ]
+
         },
         {
             "label": "Run Command Rebuild and Reopen in Container",

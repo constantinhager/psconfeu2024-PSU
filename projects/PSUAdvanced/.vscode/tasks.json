@@ -7,15 +7,10 @@
             "label": "Remove vscode-server-insiders",
             "type": "shell",
             "windows": {
-                "command": "Remove-Item",
                 "args": [
-                    "-Path",
-                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUAdvanced\\data\\.vscode-server-insiders",
-                    "-Force",
-                    "-Recurse",
-                    "-ErrorAction",
-                    "SilentlyContinue"
+                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUAdvanced\\data\\.vscode\\helper\\delvscodeserver.ps1"
                 ],
+                "command": "pwsh.exe"
             },
             "problemMatcher": [
                 "$pester"

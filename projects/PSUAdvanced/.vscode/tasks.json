@@ -8,7 +8,7 @@
             "type": "shell",
             "windows": {
                 "args": [
-                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUAdvanced\\data\\.vscode\\helper\\delvscodeserver.ps1"
+                    "D:\\repos\\psconfeu2024-PSU\\projects\\PSUAdvanced\\.vscode\\helper\\delvscodeserver.ps1"
                 ],
                 "command": "pwsh.exe"
             },
